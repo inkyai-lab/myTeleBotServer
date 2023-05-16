@@ -5,7 +5,7 @@ const express = require('express')
 
 const TELEGRAM_API = `https://api.telegram.org/bot${process.env.TOKEN}`
 const URI = `/webhook/${process.env.TOKEN}`
-const WEBHOOK_URL = process.env.SERVER_URL + URI
+const WEBHOOK_URL = process.env.CYCLIC_URL + URI
 
 const app = express()
 app.use(express.json())
@@ -16,7 +16,7 @@ const init = async () => {
 }
 
 // Create a bot instance
-const bot = new Telegraf(process.env.TOKEN);
+const bot = new Telegraf(6000218019:AAFIrQ8SUmf-EXvIwM6cuG43OzD3Qk4DJb8);
 
 function startMenu(ctx) {
     ctx.replyWithHTML(`
