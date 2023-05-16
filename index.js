@@ -16,7 +16,7 @@ const init = async () => {
 }
 
 // Create a bot instance
-const bot = new Telegraf(6000218019:AAFIrQ8SUmf-EXvIwM6cuG43OzD3Qk4DJb8);
+const bot = new Telegraf('6000218019:AAFIrQ8SUmf-EXvIwM6cuG43OzD3Qk4DJb8');
 
 function startMenu(ctx) {
     ctx.replyWithHTML(`
